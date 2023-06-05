@@ -1,0 +1,113 @@
+.navbar{
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    /* position: sticky;
+    position: -webkit-sticky; */
+}
+.nav-logo{
+    color: rgb(192, 190, 190);
+    margin-left: 100px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+.nav-menu{
+    /* laptop screen */
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-gap: 10px;
+    text-align: center;
+    justify-content: end;
+    width: 80vw;
+    list-style: none;
+}
+
+.nav-links{
+    color: rgb(192, 190, 190);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.nav-links:hover{
+    /* background-color: rgb(178, 176, 176); */
+    border-radius: 4px;
+    transition: all .2s ease-out;
+    color: white;
+}
+.menu-icon{
+    display: none;
+}
+
+@media only screen and (max-width : 960px){
+    .menu-icon{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 1.8rem;
+        color: rgb(192, 190, 190);
+        transform: translate(-100%,55%);
+        cursor: pointer;
+    }
+    .menu-icon:hover{
+        color: white;
+    }
+    /* mobile screen */
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+        /* margin-top: 20px; */
+        position: absolute;
+        top: 10vh;
+        left: -100%;
+        transition: all .4s ease;
+        overflow: auto;
+        opacity: 0;
+
+    }
+    .nav-menu.active{
+        background-color: black;
+        left: 0;
+        transition: all .5s ease;
+        z-index: 1;
+        opacity: 1;
+    }
+    .nav-links{
+        text-align: center;
+        padding: 5px;
+        width:100%;
+        display: table;
+        margin-bottom: 30px;
+        
+    }
+    .nav-links:hover{
+        border-radius: 0px;
+        color: white;
+        /* width: 85%; */
+        
+    }
+    .nav-logo{
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(25%,50%);
+        margin-left: 0;
+    }
+}
+
+
+@media only screen and (max-width : 400px){
+    .nav-logo{
+        font-size: .7rem;
+    }
+    .menu-icon{
+        font-size: 1rem;
+        transform: translate(1%,25%);
+    }
+}

@@ -1,0 +1,290 @@
+.container{
+    width: 100%;
+    height: 4100px;
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid black; */
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    /* border: 3px solid black; */
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.inner-one{
+    width: 70%;
+    /* border: 3px solid black; */
+    font-size: 20px;
+}
+.inner-one1{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    /* border: 3px solid black; */
+}
+.inner-one2{
+    width: 33%;
+    /* border: 3px solid black; */
+}
+.inner-one3{
+    width: 33%;
+    /* border: 3px solid black; */
+}
+.inner-one4{
+    width: 33%;
+    /* border: 3px solid black; */
+}
+.two{
+    height: 100px;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: row;
+    margin-left: 180px;
+}
+.inner-two1{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    /* border: 3px solid black; */
+}
+.inner-two2{
+    width: 25%;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    font-size: 20px;
+}
+/* .inner-two2-one{
+    height: 50px;
+}
+.inner-two2-two{
+    height: 50px;
+} */
+.inner-two3{
+    width: 25%;
+    margin-top: 30px;
+    font-size: 20px;
+    /* border: 3px solid black; */
+}
+.inner-two4{
+    width: 25%;
+    /* border: 3px solid black; */
+}
+button{
+    border: none;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(249, 205, 6);
+    font-size: 20px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+button:active{
+    background-color: grey;
+    color: white;
+}
+.hr{
+    border: 1px solid rgb(188, 187, 187);
+
+}
+.three{
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+    padding: 20px;
+    background-color: rgb(239, 235, 235);
+    margin: 20px;
+}
+
+.inner-three{
+    display: grid;
+    /* border: 3px solid black; */
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    margin-left: 70px;
+    font-size: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+    background-color: rgb(249, 205, 6);
+    padding: 10px;
+}
+a:active{
+    color: white;
+    background-color: grey;
+    padding: 10px;
+}
+.four{
+    height: 300px;
+    /* border: 3px solid black; */
+    text-align: center;
+    padding-left: 40%;
+    display: flex;
+    align-items: center;  
+    /* background-image: url(./image/footer.jpg); */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-attachment: fixed;
+    opacity: 0.5;
+    /* font-size: 30px; */
+}
+.five{
+    height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+    /* border: 3px solid black; */
+}
+.six{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* border: 3px solid black; */
+    gap: 40px;
+    padding: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+}
+.six > div{
+    /* border: 3px solid black; */
+    height: 400px;
+    width: 400px;
+    margin: 60px;
+    background-color: rgb(10, 10, 10);
+    justify-content: center;
+    display: flex;
+    align-items: center; 
+    font-size: 25px;
+    opacity: 0.7;   
+}
+.inner-six11{
+    /* background-image: url(./image/display\ repair.jpg); */
+    background-position: center;
+    background-size: cover;
+
+    
+    
+}
+.inner-six2{
+    /* background-image: url(./image/motherboard.jpg); */
+    background-position: center;
+    background-size: cover;
+    
+}
+.inner-six3{
+    /* background-image: url(./image/camera\ fix.jpg); */
+    background-position: center;
+    background-size: cover;
+    
+}
+.inner-six4{
+    /* background-image: url(./image/processor\ fix.jpg); */
+    background-position: center;
+    background-size: cover;
+    
+}
+.inner-six5{
+    /* background-image: url(./image/hdd\ repair.jpg); */
+    background-position: center;
+    background-size: cover;
+    
+}
+.inner-six6{
+    /* background-image: url(./image/ram\ upgrade.jpg); */
+    background-position: center;
+    background-size: cover;
+    
+}
+.seven{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(222, 221, 221);
+}
+.inner-seven1{
+    
+    padding: 30px;
+}
+.inner-seven2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* border: 3px solid black; */
+}
+.inner-seven2 > div{
+    height: 700px;
+    /* border: 3px solid black; */
+    padding: 20px;
+    background-color: white;
+    margin: 50px 100px;
+}
+.inner-seven2 > h2,p{
+    padding: 25px;
+    font-size: 20px;
+    color: rgb(105, 105, 105);
+}
+.btn{
+    background-color: rgb(247, 204, 47);
+    color: black;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.btn:hover{
+    background-color: rgb(65, 64, 64);
+    color: white;
+    border-color: none;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.btn:active{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.nine{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    /* background-image: url(./image/footer.jpg); */
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.inner-nine1{
+    width: 50%;
+    border: 3px solid black;
+    margin: 50px;
+    padding: 50px;
+    background-color: #ffffff;
+    opacity: 0.6;
+    
+}
+.inner-nine1 p{
+    font-weight: bold;
+    color: #000000;
+    font-size: large;
+}
+.inner-nine2{
+    width: 50%;
+    border: 3px solid black;
+    margin: 50px;
+    padding: 50px;
+}

@@ -1,0 +1,277 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.item1{
+    background-color: #706e6e;
+    height: 400px;
+    /* background-attachment: inherit;
+    background-size: cover; */
+    /* opacity: 0.5; */
+}
+.item2{
+    color: white;
+    margin-top: -260px;
+    text-align: center;
+    font-size: 30px;
+    padding: 0 50px;
+    font-weight: 400;
+}
+.item2-btn{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.item2-btn:hover{
+    border: 2px solid rgb(92, 91, 91);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    margin: 20px;
+    background-color: rgb(92, 91, 91);
+    color: white;
+}
+@media only screen and (max-width : 960px){
+    .item2{
+    margin-top: -300px;
+
+    }
+}
+@media only screen and (max-width : 500px){
+    .item2{
+        margin-top: -360px;
+        height: 400px;
+    }
+}
+.item3{
+    height: 800px;
+    
+}
+.six{
+    /* margin-top: 200px; */
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; */
+    background-color: rgb(244, 243, 243);
+    color: rgb(92, 91, 91);
+    /* font-size: 20px; */
+}
+.inner-six1{
+    height: 200px;
+    /* border: 3px solid black; */
+    padding-top: 90px; 
+    padding-bottom: 10px; 
+    font-size: x-large;
+}
+.inner-six2{
+    height: 280px;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: row;
+   
+}
+.inner-six21{
+    width: 18%;
+    /* border: 3px solid black; */
+    margin: 50px;
+    /* background-image: url(../images/KEClogo.png); */
+    background-position: center;
+    background-size: cover;
+    background-color: #052357;
+    align-items: center;
+    /* opacity: 0.7; */
+    display: flex;
+    justify-content: center;
+    border-radius: 7%;
+    /* padding-top: 90px; */
+    height: 200px;
+    color: white;
+}
+.inner-six22{
+    width: 18%;
+    /* border: 3px solid black; */
+    margin: 50px;
+    /* background-image: url(../images/KEClogo.png); */
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    background-color: #052357;
+    /* opacity: 0.7; */
+    display: flex;
+    justify-content: center;
+    border-radius: 7%;
+    /* padding-top: 90px; */
+    height: 200px;
+    color: white;
+}
+.inner-six23{
+    width: 18%;
+    /* border: 3px solid black; */
+    margin: 50px;
+    /* background-image: url(../images/KEClogo.png); */
+    background-position: center;
+    background-size: cover;
+    border-radius: 7%;
+    align-items: center;
+    background-color: #052357;
+    /* opacity: 0.7; */
+    display: flex;
+    justify-content: center;
+    /* padding-top: 90px; */
+    height: 200px;
+    color: white;
+}
+.inner-six24{
+    width: 18%;
+    height: 200px;
+    /* border: 3px solid black; */
+    margin: 50px;
+    /* background-image: url(../images/KEClogo.png); */
+    border-radius: 7%;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    background-color: #052357;
+    /* opacity: 0.7; */
+    display: flex;
+    justify-content: center;
+    /* padding-top: 90px; */
+    color: white;
+}
+.inner-six3 button{
+    margin-top: 30px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 30px;
+
+}
+.inner-six3 button:hover{
+    margin-top: 30px;
+    border: 2px solid rgb(92, 91, 91);
+    background-color: rgb(92, 91, 91);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+@media only screen and (max-width : 960px){
+    .six{
+        margin-top: 280px;
+        display: flex;
+        flex-direction: column;
+        height: 880px;
+        background-color: rgb(244, 243, 243);
+    }
+    .inner-six2{
+        height: 280px;
+        /* border: 3px solid black; */
+        display: flex;
+        flex-direction: row; 
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .inner-six21{
+        width: 30%;
+        margin-left: 140px;
+        margin-right: 100px;
+       
+    }
+    .inner-six22{
+        width: 30%;
+    }
+    .inner-six23{
+        width: 30%;
+        /* border: 3px solid black; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 30%;
+        height: 200px;
+        margin-left: 140px;
+        margin-right: 100px;
+    }
+    .inner-six24{
+        width: 30%;
+        /* border: 3px solid black; */
+        margin: 50px ;
+    }
+    .inner-six3 button{
+        margin-top: 320px;
+        margin-left: 65px;
+    }
+    .inner-six3 button:hover{
+        margin-top: 320px;
+        margin-left: 65px;
+        border: 2px solid black;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 15px;
+    
+    }
+}
+@media only screen and (max-width : 500px){
+    .six{
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        height: 1270px;
+        background-color: rgb(244, 243, 243);
+    }
+    .inner-six2{
+        height: 280px;
+        /* border: 3px solid black; */
+        display: flex;
+        flex-direction: row; 
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .inner-six21{
+        width: 50%;
+    }
+    .inner-six22{
+        width: 50%;
+        margin-top: -15px;
+        margin-left: 140px;
+    }
+    .inner-six23{
+        width: 50%;
+        margin-top: -15px;
+        margin-left: 140px;
+    }
+    .inner-six24{
+        width: 50%;
+        margin-top: -15px;
+        margin-left: 140px;
+    }
+    .inner-six3 button{
+        margin-top: 720px;
+        margin-left: 30px;
+    }
+    .inner-six3 button:hover{
+        margin-top: 720px;
+        margin-left: 30px;
+        border: 2px solid black;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 15px;
+    
+    }
+}
