@@ -49,7 +49,7 @@ function LoginPage() {
                 <input type="text" name="username" required placeholder='Email' onChange={handleUsernameChange}/>
                     <label for="password">Password:</label>
                     <input type="password" id="password" name="password" required  placeholder='Password' onChange={handlePasswordChange}/>
-                    <a href="#">Forgot password?</a><br/><br/>
+                    <a href="/sign">Forgot password?</a><br/><br/>
                     <div className='gap'>
                     <input type="submit" value="Login" onClick={handleSubmit}/>
                     <Link to ="/sign"><input type='button' value="Singin"/></Link>
