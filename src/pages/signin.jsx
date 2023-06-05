@@ -30,7 +30,7 @@ function SigninPage() {
     })
     .then(res => res.json())
     .then(data => {
-      if(data?.name==username)
+      if(data?.name===username)
       navigate('/')
     })
     .catch(err => console.log(err));
