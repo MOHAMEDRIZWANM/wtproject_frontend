@@ -16,6 +16,7 @@ function LoginPage() {
 
     const handlePasswordChange = (event) => {
         setPassword(event.target.value);
+        console.log(password);
     };
 
     const handleSubmit = (event) => {
@@ -56,7 +57,7 @@ function LoginPage() {
              </form>
             </div>
 
-                    );
+    );
 }
 
 export default LoginPage

@@ -1,6 +1,5 @@
 import React from 'react'
 import '../css/home.css'
-import image from '../images/KEClogo.png'
 function HomeComp(){
     return(
         <div className='container'>

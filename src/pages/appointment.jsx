@@ -1,6 +1,5 @@
-import React, { useState,useNavigate} from 'react';
+import React, { useState} from 'react';
 import "../css/appointment.css"
-import { Link } from 'react-router-dom';
 function Appointment() {
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
